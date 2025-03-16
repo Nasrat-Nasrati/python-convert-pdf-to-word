@@ -1,0 +1,116 @@
+Week 2: Introduction to HTML and CSS
+Introduction to HTML
+HTML (HyperText Markup Language) is the standard language for creating web pages.
+It provides the structure of a webpage using different elements and tags.
+Basic Structure of an HTML Document
+Every HTML page has a basic structure. Below is an example:
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First Web Page</title>
+</head>
+<body>
+<h1>Welcome to My Website</h1>
+<p>This is my first web page.</p>
+</body>
+</html>
+● <!DOCTYPE html>: Declares that this is an HTML5 document.
+● <html>: The root element of the page.
+● <head>: Contains metadata, title, and links to stylesheets.
+● <body>: Contains the visible content of the webpage.
+Text Elements in HTML
+HTML provides different tags to format text:
+● <h1> to <h6>: Headings (H1 is the largest, H6 is the smallest).
+● <p>: Paragraphs.
+● <br>: Line break.
+● <strong>: Bold text.
+● <em>: Italic text.
+Example:
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<strong>Bold Text</strong> <em>Italic Text</em>
+Links and Images
+● Hyperlinks (<a> tag): These are used to create links to other web pages or
+sections of a page.
+<a href="https://www.google.com" target="_blank">Visit Google</a>
+● Images (<img> tag): Used to display images on a webpage.
+<img src="image.jpg" alt="Sample Image" width="300" height="200">
+● src: Specifies the path to the image.
+● alt: Provides an alternative text for the image.
+● width and height: Define the image dimensions.
+Lists in HTML
+● Ordered List (<ol>): Items are numbered.
+● Unordered List (<ul>): Items are bulleted.
+Example:
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+</ul>
+<ol>
+<li>First</li>
+<li>Second</li>
+</ol>
+Tables in HTML
+Tables help organize data in rows and columns.
+
+<table border="1">
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+<tr>
+<td>Ali</td>
+<td>20</td>
+</tr>
+</table>
+Introduction to CSS
+CSS (Cascading Style Sheets) is used to style HTML elements.
+Ways to Apply CSS
+1. Inline CSS (inside an element): Used to apply a style directly to a single element.
+<p style="color: red; font-size: 20px;">This is red text with a font size of 20px.</p>
+2. Internal CSS (inside <style> in the <head> section): Used when styling multiple
+elements in the same HTML document.
+<head>
+<style>
+h1 { color: blue; }
+p { font-size: 18px; }
+</style>
+</head>
+3. External CSS (separate .css file and linked in HTML): Recommended for large
+projects to keep styles separate from HTML.
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+● Advantages of External CSS:
+○ Keeps HTML clean and organized.
+○ Allows reusability of CSS styles across multiple pages.
+○ Easier to manage and update styles.
+CSS Selectors
+Element Selector: Selects all elements of a type.
+p { color: green; }
+●
+Class Selector: Targets specific elements with a class.
+.myClass { font-size: 20px; }
+●
+ID Selector: Targets an element with a unique ID.
+#myId { background-color: yellow; }
+●
+CSS Properties
+Colors
+h1 { color: red; }
+body { background-color: lightgray; }
+Text Styling
+p { font-family: Arial, sans-serif; font-size: 16px; text-align: center; }
+Spacing and Borders
+div { margin: 10px; padding: 20px; border: 2px solid black; }
+Practice Task for This Week as assignment
+✅ Create a simple webpage with:
+1. A heading (<h1>), a paragraph (<p>), and a link (<a>).
+2. An image (<img>).
+
+3. A list (<ul> or <ol>).
+4. A table (<table>).
+5. Apply CSS styles using inline, internal, and external CSS methods.
+
